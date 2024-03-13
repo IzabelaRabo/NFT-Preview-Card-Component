@@ -1,0 +1,62 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: hsl(216, 50%, 16%);
+    font-family: Outfit;
+    width: 290px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 15px 15px 10px hsl(215, 54%, 12%);
+}
+.img-equilibrium{
+    width: 100%;
+    border-radius: 10px;
+}
+.image-container{
+    position: relative;
+    
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 290px;
+    height: 70%;
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+.image-container:hover .overlay{
+    opacity: 0.7;
+}
+h1{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+h1:hover{
+    color: hsl(178, 100%, 50%); 
+    cursor: pointer;
+}
+.product-description{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+@media (max-width: 375px){
+    body{
+        margin: 0;
+        padding: 10;
+    }
+    .container{
+        width: 85%;
+    }
+}

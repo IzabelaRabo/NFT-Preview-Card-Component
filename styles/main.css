@@ -1,0 +1,54 @@
+.nft-sale-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-ethereum{
+    width: 10px;
+    object-fit: contain;
+    padding-right: 6px;
+}
+.icon-clock{
+    width: 20px;
+    object-fit: contain;
+    padding-right: 6px;
+}
+.eth-price{
+    font-size: 15px;
+    margin-right: auto;
+    font-weight: 400;
+    color: hsl(178, 100%, 50%);
+}
+.days-left{
+    font-weight: 400;
+    color: hsl(215, 51%, 70%);
+}
+hr{
+    border: 1px solid hsl(215, 32%, 27%);
+}
+.creator-avatar{
+    width: 35px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.creator-info{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    justify-content: center;
+    align-items: center;  
+}
+.creator-name{
+    font-size: 15px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+span{
+    color: white;
+
+}
+span:hover{
+    color: hsl(178, 100%, 50%); 
+    cursor: pointer;
+}
